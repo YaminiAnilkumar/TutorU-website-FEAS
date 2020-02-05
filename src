@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>TutorU</title>
+
+<style>
+
+html{
+	height:100%;
+}
+
+* 
+{
+  box-sizing: border-box;
+}
+
+body 
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  margin: 0;
+}
+
+/*header*/
+.header {
+  padding: 40px;
+  text-align: center;
+  background: #2ECC71;
+  color: white;
+  <div class="picplanner" style="height:200px;">Image</div>
+}
+
+/* Increase the font size of the h1 element */
+.header h1 {
+  font-size: 60px;
+}
+
+/* top nav bar */
+.navbar {
+  overflow: hidden;
+  background-color: #666;
+}
+
+/* links style */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+/* rihgt link */
+.navbar a.right {
+  float: right;
+}
+
+/* hovering */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/*holeer*/
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* sitting columns*/
+/* Sidebar/left column */
+.side {
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+/* Main  */
+.main {   
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+/*planner pics*/
+.picplanner {
+  background-color: #abc;
+  width: 100%;
+  padding: 20px;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>About TUTORU</h1> <!--add logo/>
+  <p>For the smart learner.</p>
+</div>
+
+<div class="navbar">
+  <a href="#">Home</a>
+  <a href="#">The App</a>
+  <a href="#">FAQ</a>
+  <a href="#" class="right">Contact Us</a>
+</div>
+
+<div class="row">
+  <div class="side">
+    <h2>Download the App!</h2>
+    <img src="Pictures/stugr1.jpg" alt= "Students" style="width:600px;height:300px">
+    <div class="picplanner" style="height:200px;">Image</div>
+    <p>How to Use TutorU</p>
+    <h3>More Text</h3>
+    <p>We help connect you witht he perfect tutor!</p>
+
+	<div class="picplanner" style="height:60px;">Image</div>
+  </div>
+  <div class="main">
+    <h2>A TutorU Student</h2>
+    <h5>This is where we can describe how the app works xEdFeb03</h5>
+    <div class="picplanner" style="height:200px;">Image</div>
+    <p>Information about when/where usage</p>
+	    <div class="picplanner" style="height:200px;">Image</div>
+		    <div class="picplanner" style="height:300px;">Image</div>
+    <p>Link to live demo??</p>
+    <br>
+    <h2>A TutorU Teacher</h2>
+    <h5>Title description, </h5>
+    <div class="picplanner" style="height:200px;">Image</div>
+    <p>Title text</p>
+    <p>Some facts maybe about tutoring and personalized study help. Benefits for tutors</p>
+  </div>
+</div>
+
+</body>
+</html>
